@@ -3,7 +3,7 @@ int main()
 {
     double x,y;
     printf(":");
-    scanf("If",&x);
+    scanf("lf",&x);
     if(x<=50){
         y=0.53*x;
     }
