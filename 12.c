@@ -17,7 +17,7 @@ int main()
             }
         }
         if (flag == 0)
-            printf("% d", n);
+            printf("% 6d", n);
     }
     return 0;
 }
