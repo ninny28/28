@@ -8,15 +8,14 @@ int main(void)
     {
         scanf("%d", &a[i]);
     }
-    for(i=0;i<N;i++)
+    max=a[0];
+    for(i=1;i<N;i++)
     {
-        if(i<=i++)
+        if(a[i]>max)
         {
-            max=i++;
-        }else{
-            max=i;
+            max=a[i];
         }
     }
-    printf("Max is %d",max);
+    printf("Max is %d\n",max);
     return 0;
 }
